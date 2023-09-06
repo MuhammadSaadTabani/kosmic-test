@@ -5,8 +5,6 @@
 
 Here is the assessment of KosmicAI app, I have tried to complete all of the mentioned requirements in the pdf provided to me, you can take a look at the project in this repository.
 
-NOTE: I have developed the app on android device and tried to fix the platform specific issues in UI, I have older version of macbook so I just ran the project on iOS to clear the fixes but there are some library conflicting issues in ios project which is taking long to debug. Thank you
-
 
 ## Installation
 

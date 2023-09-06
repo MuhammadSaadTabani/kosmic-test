@@ -2,6 +2,9 @@
 
 ## Overview
 
+Kindly look at the DEMO VIDEO of this assessment to have more clear view of project.
+VIDEO URL: [https://we.tl/t-AIUiO2nT2A](url)
+
 
 Here is the assessment of KosmicAI app, I have tried to complete all of the mentioned requirements in the pdf provided to me, you can take a look at the project in this repository.
 

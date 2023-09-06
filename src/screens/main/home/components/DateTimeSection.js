@@ -6,11 +6,15 @@ import { textStyles } from '../../../../styles/text-styles'
 import { fonts } from '../../../../assets/fonts'
 import { heightPercentageToDP as hp } from 'react-native-responsive-screen'
 import { colors } from '../../../../assets/colors'
+import GradientText from '../../../../components/gradient-text'
 
 const DateTimeSection = ({time, day}) => {
     return (
         <View style={styles.container}>
-            <Text style={styles.text}>Your recent videos</Text>
+            <GradientText
+                text={"Your recent videos"}
+                style={{fontSize: hp('2.5%'), fontFamily: fonts.regular}}
+            />
             <View style={[ layoutStyles.row , {justifyContent: 'space-between', alignItems: 'center', marginTop: hp('2%')}]}>
                 <View>
                     <Text style={[styles.time]}>{time}</Text>

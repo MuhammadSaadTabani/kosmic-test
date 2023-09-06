@@ -12,16 +12,16 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		143697A22DE9490F96102A51 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 883ED371C1054E3EAC7FAA24 /* Poppins-SemiBold.ttf */; };
+		30BF1F8E110F4E7CBA9DFB35 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D10B865A0C5453EA4CEDB6C /* Poppins-Light.ttf */; };
+		3A4CAED038424FFFA119267C /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E79D56DE97746678797E7F1 /* Poppins-ExtraBold.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-kosmicui-kosmicuiTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-kosmicui-kosmicuiTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		C416C10866434344A9AD7513 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF36F9A578F2487B9D0ED53F /* Poppins-Bold.ttf */; };
-		3A4CAED038424FFFA119267C /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E79D56DE97746678797E7F1 /* Poppins-ExtraBold.ttf */; };
-		30BF1F8E110F4E7CBA9DFB35 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D10B865A0C5453EA4CEDB6C /* Poppins-Light.ttf */; };
 		83845E2448B74C4DBE69BCD9 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4593E22C4A834B0EAE22F54A /* Poppins-Medium.ttf */; };
-		FA5C9B8D57434564A049B5AC /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E16A62CADD842EBAC4C1F65 /* Poppins-Regular.ttf */; };
-		143697A22DE9490F96102A51 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 883ED371C1054E3EAC7FAA24 /* Poppins-SemiBold.ttf */; };
 		931621436F5D45C3B2F24D4D /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 895646A977E74FCEAFBB3958 /* Poppins-Thin.ttf */; };
+		C416C10866434344A9AD7513 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF36F9A578F2487B9D0ED53F /* Poppins-Bold.ttf */; };
 		C4E000F161EF48448486D197 /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = 22CEA34709E748BF9687B307 /* index.js */; };
+		FA5C9B8D57434564A049B5AC /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E16A62CADD842EBAC4C1F65 /* Poppins-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,21 +45,21 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = kosmicui/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = kosmicui/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-kosmicui-kosmicuiTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-kosmicui-kosmicuiTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22CEA34709E748BF9687B307 /* index.js */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = index.js; path = ../src/assets/fonts/index.js; sourceTree = "<group>"; };
+		2E16A62CADD842EBAC4C1F65 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Regular.ttf"; path = "../src/assets/fonts/Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-kosmicui.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kosmicui.debug.xcconfig"; path = "Target Support Files/Pods-kosmicui/Pods-kosmicui.debug.xcconfig"; sourceTree = "<group>"; };
+		4593E22C4A834B0EAE22F54A /* Poppins-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Medium.ttf"; path = "../src/assets/fonts/Poppins-Medium.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-kosmicui.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kosmicui.release.xcconfig"; path = "Target Support Files/Pods-kosmicui/Pods-kosmicui.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-kosmicui-kosmicuiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kosmicui-kosmicuiTests.debug.xcconfig"; path = "Target Support Files/Pods-kosmicui-kosmicuiTests/Pods-kosmicui-kosmicuiTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-kosmicui.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-kosmicui.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E79D56DE97746678797E7F1 /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraBold.ttf"; path = "../src/assets/fonts/Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = kosmicui/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		883ED371C1054E3EAC7FAA24 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-SemiBold.ttf"; path = "../src/assets/fonts/Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		895646A977E74FCEAFBB3958 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Thin.ttf"; path = "../src/assets/fonts/Poppins-Thin.ttf"; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-kosmicui-kosmicuiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kosmicui-kosmicuiTests.release.xcconfig"; path = "Target Support Files/Pods-kosmicui-kosmicuiTests/Pods-kosmicui-kosmicuiTests.release.xcconfig"; sourceTree = "<group>"; };
+		9D10B865A0C5453EA4CEDB6C /* Poppins-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Light.ttf"; path = "../src/assets/fonts/Poppins-Light.ttf"; sourceTree = "<group>"; };
+		CF36F9A578F2487B9D0ED53F /* Poppins-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Bold.ttf"; path = "../src/assets/fonts/Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		CF36F9A578F2487B9D0ED53F /* Poppins-Bold.ttf */ = {isa = PBXFileReference; name = "Poppins-Bold.ttf"; path = "../src/assets/fonts/Poppins-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		5E79D56DE97746678797E7F1 /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Poppins-ExtraBold.ttf"; path = "../src/assets/fonts/Poppins-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		9D10B865A0C5453EA4CEDB6C /* Poppins-Light.ttf */ = {isa = PBXFileReference; name = "Poppins-Light.ttf"; path = "../src/assets/fonts/Poppins-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		4593E22C4A834B0EAE22F54A /* Poppins-Medium.ttf */ = {isa = PBXFileReference; name = "Poppins-Medium.ttf"; path = "../src/assets/fonts/Poppins-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		2E16A62CADD842EBAC4C1F65 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; name = "Poppins-Regular.ttf"; path = "../src/assets/fonts/Poppins-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		883ED371C1054E3EAC7FAA24 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; name = "Poppins-SemiBold.ttf"; path = "../src/assets/fonts/Poppins-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		895646A977E74FCEAFBB3958 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; name = "Poppins-Thin.ttf"; path = "../src/assets/fonts/Poppins-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		22CEA34709E748BF9687B307 /* index.js */ = {isa = PBXFileReference; name = "index.js"; path = "../src/assets/fonts/index.js"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,19 +154,8 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3B4392A12AC88292D35C810B /* Pods-kosmicui.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-kosmicui.release.xcconfig */,
-				5B7EB9410499542E8C5724F5 /* Pods-kosmicui-kosmicuiTests.debug.xcconfig */,
-				89C6BE57DB24E9ADA2F236DE /* Pods-kosmicui-kosmicuiTests.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		84D4BD5848C340A6A94A21B8 /* Resources */ = {
-			isa = "PBXGroup";
+			isa = PBXGroup;
 			children = (
 				CF36F9A578F2487B9D0ED53F /* Poppins-Bold.ttf */,
 				5E79D56DE97746678797E7F1 /* Poppins-ExtraBold.ttf */,
@@ -179,7 +168,17 @@
 			);
 			name = Resources;
 			sourceTree = "<group>";
-			path = "";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-kosmicui.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-kosmicui.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-kosmicui-kosmicuiTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-kosmicui-kosmicuiTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 

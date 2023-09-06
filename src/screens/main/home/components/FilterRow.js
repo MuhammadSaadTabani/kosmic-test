@@ -23,7 +23,7 @@ const FilterRow = () => {
                 <FilterItem
                     key={item.id}
                     text={item.text}
-                    length={4}
+                    length={item.videoCount}
                     selected={item.id == selectedOption}
                     onPress={() => onOptionPress(item.id)}
                 />

@@ -9,8 +9,11 @@ import { colors } from '../../../../assets/colors'
 import { icons } from '../../../../assets/icons'
 import { textStyles } from '../../../../styles/text-styles'
 import DatePicker from './DatePicker'
+import Graph from './Graph'
+import Icon from 'react-native-vector-icons/AntDesign'
+import Status from './Status'
 
-const VideoCard = () => {
+const VideoCard = ({onPress}) => {
 
     const onDateChange = (date) => {
 
@@ -28,7 +31,28 @@ const VideoCard = () => {
                     <Text style={styles.name}>First Project</Text>
                 </View>
             </View>
-
+            <View style={{flexDirection: 'row'}}>
+                <Graph/>
+                <View style={styles.arrow}> 
+                <Icon 
+                    name={"arrowright"} 
+                    size={28} 
+                    color={'black'} 
+                    onPress={onPress}
+                />
+                </View>
+            </View>
+            {/* <View style={{flexDirection: 'row', marginVertical: hp('2%'), width: '100%',justifyContent: 'center'}}>
+                {graphData.map(item => 
+                    <View style={{alignItems: 'center', justifyContent: 'center'}}>
+                        <View style={{height: hp(20), width: hp('5%'), borderRadius: hp('2%'), backgroundColor: '#6441BF', justifyContent: 'flex-end', marginRight: hp('1%')}}>
+                            <View style={{height: hp((item.value/3).toString()), width: hp('5%'), borderWidth: 1, borderRadius: hp('2%'), backgroundColor: 'lightblue',}}/>
+                        </View>
+                        <Text style={[textStyles.text, {marginTop: hp('1%')}]}>{item.name}</Text>
+                    </View>
+                )}
+            </View> */}
+            
 
             <View style={[layoutStyles.row, {justifyContent: 'space-between'}]}>
                 <View style={[layoutStyles.row, {flex:2, justifyContent: 'flex-start'}]}>
@@ -39,20 +63,15 @@ const VideoCard = () => {
                         />
                         <Text style={[[textStyles.text, {color: colors.white, marginLeft: hp('0.8%')}]]}>2</Text>
                     </View>
-                    <View style={[styles.iconBackground, {marginLeft: hp('2%')}]}>
-                        <Image
-                            source={icons.calendar2}
-                            style={styles.icon}
-                        />
-                        <DatePicker
-                            heading={"asd"}
-                            onChange={onDateChange}
-                        />
-                    </View>
+                    
+                    <DatePicker
+                        onChange={onDateChange}
+                        style={{marginLeft: hp('2%')}}
+                    />
                 </View>
-                <View style={styles.statusContainer}>
-                    <Text style={[textStyles.text, {color: '#FFC75C'}]}>Pending</Text>
-                </View>
+                <Status
+                    status={"Pending"}
+                />
             </View>
         </View>
   )
@@ -64,7 +83,8 @@ const styles = StyleSheet.create({
     container: {
         borderRadius: hp('2%'),
         padding: hp('2%'),
-        backgroundColor: colors.primary
+        backgroundColor: colors.primary,
+        width: '100%'
     },
     row: {
         justifyContent: 'flex-start',
@@ -97,10 +117,13 @@ const styles = StyleSheet.create({
         height: hp('2.5%'),
         width: hp('2.5%'),
     },
-    statusContainer: {
-        backgroundColor: 'rgba(255, 201, 97, 0.30)',
-        paddingVertical: hp('1.5%'),
-        paddingHorizontal: hp('2.25%'),
-        borderRadius: hp('3%')
+    arrow: {
+        transform: [{ rotate: '320deg'}],
+        padding: hp('2%'),
+        backgroundColor: colors.white,
+        borderRadius: 100,
+        position: 'absolute',
+        right: -8,
+        top: 20
     }
 })

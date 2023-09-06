@@ -4,31 +4,26 @@ import { Container, Header } from '../../../components'
 import DateTimeSection from './components/DateTimeSection'
 import FilterRow from './components/FilterRow'
 import EditVideoSection from './components/EditVideoSection'
+import Swiper from 'react-native-deck-swiper'
+import VideoCard from './components/VideoCard'
 
 
 
 const Home = ({navigation}) => {
-
  
   return (
       <Container
         renderHeader={() => 
-          <Header
-            heading={"Expense Saviour"}
-            avatar
-          />
+          <Header/>
         }
       >
         <DateTimeSection
           time={"03:24"}
           day={"Monday"}
         />
-        <FilterRow
-
-        />
-        <EditVideoSection
+        <FilterRow />
+        <EditVideoSection /> 
         
-        />
       </Container>
      
   )

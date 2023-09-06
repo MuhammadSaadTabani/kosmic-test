@@ -1,5 +1,6 @@
 import React from "react";
 import {
+    SafeAreaView,
     ScrollView,
     StatusBar,
     StyleSheet,
@@ -10,19 +11,19 @@ import { colors } from "../../assets/colors";
 
 const Container = ({renderHeader, style, children, scrollDisabled}) => {
     return(
-        <View style={[styles.container, style]}>
+        <SafeAreaView style={[styles.container, style]}>
             {renderHeader && 
                 <View style={{paddingHorizontal: hp('1.5%')}}>
                     {renderHeader()}
                 </View>
             }
             <ScrollView 
-                contentContainerStyle={{padding: hp('1.5%')}}
+                contentContainerStyle={{padding: hp('1.5%'), paddingBottom: hp('15%')}}
                 scrollEnabled={!scrollDisabled}
             >   
                 {children}
             </ScrollView>
-        </View>
+        </SafeAreaView>
     )
 }
 
@@ -30,7 +31,7 @@ const styles = StyleSheet.create({
     container: {
         flex:1,
         paddingTop: StatusBar.currentHeight,
-        paddingBottom: 0,
+        // paddingBottom: hp('20%'),
         backgroundColor: colors.background,
     },
 })

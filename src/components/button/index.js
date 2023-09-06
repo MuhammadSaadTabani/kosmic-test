@@ -18,6 +18,7 @@ const Button = ({disabled, onPress, color, text, textColor, icon, iconColor, sty
     return(
         <TouchableOpacity 
             disabled={loading || disabled}
+            activeOpacity={0.6}
             onPress={onPress}
             style={[
                 styles.button,

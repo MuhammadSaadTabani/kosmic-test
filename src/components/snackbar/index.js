@@ -15,7 +15,7 @@ const SnackBar = ({position}) => {
             style={[{ 
                 height: text2 ? hp('8%') : hp('6.25%'),
                 width:"85%",
-                borderLeftColor: colors.primary,
+                borderLeftColor: colors.white,
                 marginLeft:hp('1%'),
                 marginRight:hp('1%'),
                 marginBottom:hp('0%'),
@@ -25,12 +25,12 @@ const SnackBar = ({position}) => {
             }, props.style]}
             contentContainerStyle={{ paddingHorizontal: hp('2%') }}
             text1Style={[{
-                color:colors.primary,
+                color:colors.white,
                 // fontFamily:regular,
                 fontSize:hp('1.85%')
             },props.text1Style]}
             text2Style={[{
-                color:colors.black,
+                color:colors.white,
                 // fontFamily:regular,
                 fontSize:hp('1.75%')
             },props.text2Style]}

@@ -7,6 +7,7 @@ import SplashScreen from 'react-native-splash-screen'
 import 'react-native-gesture-handler';
 import { persistor, store } from './redux/store';
 import SnackBar from './components/snackbar';
+import InviteCollaboratorModal from './components/collaborators-modal';
 
 const App = () => {
     return (
@@ -18,6 +19,7 @@ const App = () => {
             >
                 <Routes/>
             </PersistGate>
+            <InviteCollaboratorModal/>
         </Provider>
         <SnackBar position={'top'}/>
         </>
